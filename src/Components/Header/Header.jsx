@@ -3,7 +3,7 @@ import ButtonPrimary from "../Shared/ButtonPrimary";
 
 const Header = () => {
     return (
-        <header>
+        <header className="">
             <div className="flex justify-between items-center py-8">
                 <NavLink to="/" className="text-3xl font-semibold">
                     CareerHub
