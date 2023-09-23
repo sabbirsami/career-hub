@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import ButtonPrimary from "../Shared/ButtonPrimary";
 
 const Header = () => {
     return (
@@ -20,9 +21,7 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <button className="btn bg-violet-50 text-violet-700 hover:bg-violet-100 rounded-full py-3 px-6 font-semibold">
-                    Star Applying
-                </button>
+                <ButtonPrimary name={"Star Applying"}></ButtonPrimary>
             </div>
         </header>
     );
