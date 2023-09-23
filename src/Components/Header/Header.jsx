@@ -1,18 +1,22 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
     return (
         <header>
-            <div className="container mx-auto flex justify-between items-center py-8">
-                <h1 className="text-3xl font-semibold">CareerHub</h1>
+            <div className="flex justify-between items-center py-8">
+                <NavLink to="/" className="text-3xl font-semibold">
+                    CareerHub
+                </NavLink>
                 <nav>
                     <ul className="flex gap-8 font-normal">
                         <li>
-                            <a href="/statistics">Statistics</a>
+                            <NavLink to="/statistics">Statistics</NavLink>
                         </li>
                         <li>
-                            <a href="/jobs">Applied Jobs</a>
+                            <NavLink to="/jobs">Applied Jobs</NavLink>
                         </li>
                         <li>
-                            <a href="/blog">Blog</a>
+                            <NavLink to="/blog">Blog</NavLink>
                         </li>
                     </ul>
                 </nav>
