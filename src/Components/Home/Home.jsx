@@ -4,11 +4,11 @@ import Features from "./Features";
 
 const Home = () => {
     return (
-        <>
+        <div className="container-lg mx-auto">
             <Banner />
             <CategoryList />
             <Features />
-        </>
+        </div>
     );
 };
 

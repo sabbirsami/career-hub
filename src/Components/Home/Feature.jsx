@@ -34,7 +34,7 @@ function Feature({ feature }) {
                 </p>
             </div>
             <div className="py-3">
-                <NavLink to="/jobs">
+                <NavLink to={`/job/${feature.id}`}>
                     <ButtonPrimary name={"View Details"}></ButtonPrimary>
                 </NavLink>
             </div>

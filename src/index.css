@@ -7,3 +7,8 @@
 a.active {
     color: rgb(109 40 217);
 }
+.backgroundImag {
+    background-image: url(./assets/images/bg1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
